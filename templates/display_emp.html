@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display_emp</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.9.0/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/emp.css' %}">
+
+</head>
+<body>
+    <center>
+        <h1>display_emp</h1>
+        <div class="container">
+            <table class="table table-bordered bordered-dark">
+                <thead class="thead">
+                    <tr>
+                        <th class="A">EMPNO</th>
+                        <th class="A">ENAME</th>
+                        <th class="A">JOB</th>
+                        <th class="A">MGR</th>
+                        <th class="A">HIREDATE</th>
+                        <th class="A">SALARY</th>
+                        <th class="A">COMMISION</th>
+                        <th class="A">DEPTNO</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    {% for i in employee %}
+                        <tr>
+                            <td class="a">{{i.empno}}</td>
+                            <td class="b">{{i.ename}}</td>
+                            <td class="c">{{i.job}}</td>
+                            <td class="d">{{i.mgr}}</td>
+                            <td class="e">{{i.hiredate}}</td>
+                            <td class="f">{{i.sal}}</td>
+                            <td class="g">{{i.comm}}</td>
+                            <td class="h">{{i.deptno.deptno}}</td>
+    
+    
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </center>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.9.0/mdb.min.js"></script>
+ 
+</body>
+</html>

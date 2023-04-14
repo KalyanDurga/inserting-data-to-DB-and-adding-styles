@@ -1,0 +1,56 @@
+.tbody {
+    color: rgb(17, 2, 2);
+    background-color: rgb(92, 148, 130);
+    border-radius: 50px ;
+    text-align: center;
+}
+
+.thead {
+    background-color:rgb(32, 164, 164);
+    color: rgb(28, 5, 5);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.A:hover {
+    background-color: rgb(246, 249, 249);
+    border-radius: 100px 100px 100px 100px;
+}
+
+.a:hover{
+    background-color: rgb(62, 205, 164);
+    border-radius: 100px 100px 100px 100px;
+}
+
+
+
+.b:hover{
+    background-color: rgb(81, 152, 186);
+    border-radius: 100px 100px 100px 100px;}
+
+
+.c:hover{
+    background-color: rgb(187, 113, 52);
+    border-radius: 100px 100px 100px 100px;}
+
+.d:hover:hover{
+    background-color: rgb(148, 128, 128);
+    border-radius: 100px 100px 100px 100px;}
+
+.e:hover:hover{
+    background-color: rgb(139, 97, 124);
+    border-radius: 100px 100px 100px 100px;}
+
+.f:hover:hover{
+    background-color: rgba(205, 92, 92, 0.872);
+    border-radius: 100px 100px 100px 100px;}
+
+
+.g:hover:hover{
+    background-color: rgb(115, 10, 10);
+    border-radius: 100px 100px 100px 100px;}
+
+.h:hover{
+    background-color: rgb(138, 108, 108);
+    border-radius: 100px 100px 100px 100px;}
+
